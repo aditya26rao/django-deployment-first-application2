@@ -22,7 +22,7 @@ from MultiViewApp import views as v1
 from App1 import views as v11
 from App2 import views as v22
 #approach2
-from App1.views import f11
+from App1.views import f11,f12
 from App2.views import f22
 
 urlpatterns = [
@@ -34,6 +34,7 @@ urlpatterns = [
     path('aftr/',v1.f2),
     path('evng/',v1.f3),
     path('app1/',v11.f11),
+    path('app12/',v11.f12),
     path('app2/',v22.f22),
     path('first/',views.demo),
     path('second/',views.demo),
